@@ -39,7 +39,7 @@ function App() {
           setData(response.data);
         }
       } catch (error) {
-        alert({message: "failed to fetch data"});
+        alert("failed to fetch data");
       }
     }
     fetchData();
